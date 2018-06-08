@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <style>
+            header {
+                font-size: 2.5em;
+                }
+
+            .reg-block{
+                background-color:dimgray;
+            }
+            #below-reg{
+                background-color: chartreuse;
+            }
+            .register-bg{
+                background-color: chocolate;
+                width: 100%;
+                padding-top: 20px;
+            }
+            form{
+                margin-right: 30px;
+                margin-left: 30px;
+            }
+            p{
+                margin-right: 30px;
+                margin-left: 30px;
+            }
+            .title {padding:15px;}
+        </style>
+    </head>
+    <body class="bg-info">
+        <header> </header>
+        <div class="container-fluid" style="margin-top:10%">
+            <!-- <div class="col-md-4"> </div> -->
+            <div class="col-sm-4 col-md-offset-4">
+                    <div class="reg-block">
+                        <div class="title">
+                    
+                        <center><h3 style="color:#fff; margin: 0px;">REGISTRATION</h3>
+                        <small> Please fill the below form </small> </small></center>
+                    </div>
+                        <div class="register-bg">
+                                <form>
+                                        <div class="form-group">
+                                            <label for="usr">Name:</label>
+                                            <input type="text" class="form-control" placeholder="Enter name" id="usr">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="em">Email</label>
+                                            <input type="email" class="form-control" placeholder="Enter email" id="em">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="pwd">Password:</label>
+                                            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="pwdr">Re-Enter Password:</label>
+                                            <input type="password" class="form-control" id="pwd" placeholder="Enter password again" name="pwdr">
+                                        </div>
+                                        <button type="submit" class="btn btn-default">Submit</button>
+                                </form>
+                                <p><b>Already have an account?</b></p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
